@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 #Others
-.yarn
+/.yarn/*
