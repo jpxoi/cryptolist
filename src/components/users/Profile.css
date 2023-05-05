@@ -13,7 +13,7 @@
 
 .profile__card {
     display: flex;
-    max-width: 350px;
+    max-width: 370px;
     background: #082032;
     border: 1px solid skyblue;
     border-radius: 0.75rem;
