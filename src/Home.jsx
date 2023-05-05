@@ -4,12 +4,10 @@ import "./Home.css"
 const Home = () => {
     return (
         <div className="home__container">
-            <h1 className="title">Hey! Welcome to EDMarket</h1>
-            <p className="subtitle" >Meet the 100 most used cryptos</p>
-            <div className="home__image">
-                <img src="/crypto.jpeg" alt="crypto" />
-            </div>
+            <h1 className="title">Hey! Welcome to CryptoList</h1>
+            <p className="subtitle" >Meet the 100 most used cryptos.</p>
             <Link to="/criptocurrencies" className="link">See cryptocurrencies</Link>
+            <p className="caption" >This project was developed by <a target="_blank" href="https://jpxoi.com">Jean Paul Fernandez</a></p>
         </div>
     )
 }

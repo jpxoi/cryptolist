@@ -36,7 +36,7 @@ const Login = () => {
     return (
         <div className="main__container">
             <div className="login__container">
-                <h1>Sign In</h1>
+                <h1>Sign In to CryptoList</h1>
                 <form onSubmit={submit}>
                     <div className="field">
                         <label htmlFor="email">Email</label>
@@ -76,8 +76,8 @@ const Login = () => {
                         <span>cityslicka</span>
                     </p>
                 </div>
-                
             </div>
+            <p className="caption" >This project was developed by <a target="_blank" href="https://jpxoi.com">Jean Paul Fernandez</a></p>
         </div>
     )
 }

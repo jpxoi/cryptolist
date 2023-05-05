@@ -10,6 +10,11 @@ const Menu = () => {
 
     return (
         <nav className="main__menu">
+            <div className="logo">
+                <NavLink to="/">
+                    <img src="/logo.svg" alt="Logo" />
+                </NavLink>
+            </div>
             <ul>
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/criptocurrencies">Criptocurrencies</NavLink></li>
