@@ -1,0 +1,18 @@
+.app__container {
+    max-width: 1400px;
+    padding: 2rem 0;
+    margin: auto;
+}
+
+.label {
+    color: skyblue;
+}
+
+.positive {
+    color: #4FFF06;
+}
+
+.negative {
+    color: #FF5977;
+
+}

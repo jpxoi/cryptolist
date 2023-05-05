@@ -1,0 +1,25 @@
+.main__menu {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid skyblue;
+    padding: 1rem;
+}
+
+.main__menu ul {
+    display: flex;
+}
+
+.main__menu li {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.main__menu a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.main__menu a:hover {
+    color: skyblue;
+    transition: 0.2s;
+}

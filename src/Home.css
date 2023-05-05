@@ -1,0 +1,40 @@
+.home__container {
+    text-align: center;
+}
+  
+.home__container .title {
+    margin-bottom: .5rem;
+}
+  
+.home__container .subtitle {
+    margin-bottom: 2rem;
+    opacity: .5;
+}
+  
+.home__image {
+    max-width: 1440px;
+    height: 288px;
+    margin-bottom: 3rem;
+}
+
+.home__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.link {
+    background: white;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.link:hover {
+    background: #082032;
+    color: white;
+    transition: 0.2s;
+}

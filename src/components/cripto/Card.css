@@ -1,0 +1,23 @@
+.card {
+    background: #082032;
+    border: 1px solid skyblue;
+    border-left: 10px solid skyblue;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    transition: all 0.25s;
+}
+
+.card:hover {
+    background: rgba(8, 32, 50, 0.7);
+    border: 1px solid skyblue;
+    box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.35);
+}
+
+.card .info {
+    color: #D2D2D5;
+}
+
+.card h2, .card a {
+    color: white;
+    text-decoration: none;
+}
